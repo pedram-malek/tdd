@@ -4,7 +4,7 @@ module.exports = class ZTruncater {
 
 	truncate(letterToTruncate) {
 
-		return '';
+		return letterToTruncate.substr(1);
 	}
 
 };
